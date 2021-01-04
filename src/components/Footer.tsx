@@ -13,21 +13,21 @@ export class Footer extends Component {
                         <ul className="flex items-center justify-between">
                             <li className="flex">
                             <span>
-                                <a className="text-purple-300 cursor-pointer hover:text-purple-200" href="https://www.linkedin.com/in/kevin-lan-81b3631a7/">
+                                <a className="text-purple-300 cursor-pointer hover:text-purple-200" href="https://www.linkedin.com/in/kevin-lan-81b3631a7/" rel = "noreferrer" target = "_blank">
                                 <FaLinkedinIn />
                                 </a>
                             </span>
                             </li>
                             <li className="flex">
                             <span>
-                                <a className="light cursor-pointer text-purple-300 hover:text-purple-200" href="http://github.com/kevinjl321">
+                                <a className="light cursor-pointer text-purple-300 hover:text-purple-200" href="http://github.com/kevinjl321" rel = "noreferrer" target = "_blank">
                                 <FaGithub />
                                 </a>
                             </span>
                             </li>
                             <li className="flex">
                             <span>
-                                <a className= "light cursor-pointer text-purple-300 hover:text-purple-200" href="http://instagram.com/kevinjl321">
+                                <a className= "light cursor-pointer text-purple-300 hover:text-purple-200" href="http://instagram.com/kevinjl321" rel = "noreferrer" target = "_blank">
                                 <FaInstagram />
                                 </a>
                             </span>
@@ -35,8 +35,8 @@ export class Footer extends Component {
                         </ul>
                     </div>
                 </div>
-                <p className="text-md text-gray-500">
-                    Built with ❤️ by Kevin Lan © 2021
+                <p className="text-md text-gray-500 font-semibold">
+                    © 2021 kevin lan | designed and developed by kevin lan 
                     <br />
                 </p>
             </footer>
