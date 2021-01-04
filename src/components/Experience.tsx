@@ -1,20 +1,10 @@
 import React, { Component } from 'react'
 
-import {FaVuejs} from 'react-icons/fa'
-import {FaReact} from 'react-icons/fa'
-import {AiFillHtml5} from 'react-icons/ai'
-import {FaJava} from 'react-icons/fa'
-import {IoLogoJavascript} from 'react-icons/io'
-import {SiCplusplus} from 'react-icons/si'
-import {FaPython} from 'react-icons/fa'
-import {SiJupyter} from 'react-icons/si'
-import {DiCss3} from 'react-icons/di'
-
 export class Experience extends Component {
     render() {
         return (
             <section id="about" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 sp:px-10 md:px-8 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl sm:py-20 md:py-24 lg:py-32">
-                <p className="text-purple-300 font-bold leading-snug text-left text-1xl md:text-center sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
+                <p className="text-purple-300 font-bold leading-snug text-left text-2xl md:text-center sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
                     Experience
                 </p>
                 {/*
