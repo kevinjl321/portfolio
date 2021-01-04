@@ -2,15 +2,21 @@ import React, {Component} from 'react';
 import "./index.css"
 import "tailwindcss/dist/base.css"
 
-import Profile from "./components/Profile"
+import Hero from "./components/Hero"
 import About from "./components/About"
+import Experience from "./components/Experience"
 
 class App extends Component{
   render() {
     return (
-      <div>
-        <Profile />
-        <About />
+      <div className = "w-full bg-gray-900">
+          <Hero/>
+          <div className = "border-t border-gray-700 w-full">
+            <About/>
+          </div>
+          <div className = "border-t border-gray-700 w-full">
+            <Experience/>
+          </div>
       </div>
     );
   }
