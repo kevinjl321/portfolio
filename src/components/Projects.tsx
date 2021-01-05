@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
-export class Experience extends Component {
+export class Projects extends Component {
     render() {
         return (
-            <section id="about" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 sp:px-10 md:px-8 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl sm:py-20 md:py-24 lg:py-32">
-                <p className="text-purple-300 font-bold leading-snug text-left text-2xl md:text-center sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
-                    Experience
+            <section id="projects" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 sp:px-10 md:px-8 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl sm:py-20 md:py-24 lg:py-32">
+                <p className="special text-purple-300 font-semibold leading-snug text-left text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
+                    projects
                 </p>
                 {/*
                 <div className="flex flex-col mb-24 lg:-mx-6 lg:flex-row">
@@ -79,4 +79,4 @@ export class Experience extends Component {
     }
 }
 
-export default Experience
+export default Projects
