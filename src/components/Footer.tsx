@@ -6,7 +6,7 @@ export class Footer extends Component {
         return (
             <footer
             role="contentinfo"
-            className="px-4 py-20 text-center bg-gray-900"
+            className="px-4 py-10 text-center bg-gray-900"
             >
                 <div className="flex justify-center py-5 mb-4">
                     <div className="text-2xl w-44 md:w-48 lg:w-48 md:text-2xl lg:text-2xl">
@@ -14,21 +14,21 @@ export class Footer extends Component {
                             <li className="flex">
                             <span>
                                 <a className="text-purple-300 cursor-pointer hover:text-purple-200" href="https://www.linkedin.com/in/kevin-lan-81b3631a7/" rel = "noreferrer" target = "_blank">
-                                <FaLinkedinIn />
+                                    <FaLinkedinIn />
                                 </a>
                             </span>
                             </li>
                             <li className="flex">
                             <span>
                                 <a className="light cursor-pointer text-purple-300 hover:text-purple-200" href="http://github.com/kevinjl321" rel = "noreferrer" target = "_blank">
-                                <FaGithub />
+                                    <FaGithub />
                                 </a>
                             </span>
                             </li>
                             <li className="flex">
                             <span>
                                 <a className= "light cursor-pointer text-purple-300 hover:text-purple-200" href="http://instagram.com/kevinjl321" rel = "noreferrer" target = "_blank">
-                                <FaInstagram />
+                                    <FaInstagram />
                                 </a>
                             </span>
                             </li>

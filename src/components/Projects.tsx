@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 
+import {HiOutlineExternalLink} from "react-icons/hi"
+import {AiFillGithub} from "react-icons/ai"
+
+import Test from "../images/Test.jpg"
+
 export class Projects extends Component {
     render() {
         return (
@@ -7,73 +12,52 @@ export class Projects extends Component {
                 <p className="special text-purple-300 font-semibold leading-snug text-left text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
                     projects
                 </p>
-                {/*
-                <div className="flex flex-col mb-24 lg:-mx-6 lg:flex-row">
-                    <div className="w-2/3 mx-auto mb-12 text-center sm:w-2/3 lg:mb-0 lg:mx-6 lg:w-1/3 lg:w-full">
-                    <FaReact className="mx-auto mb-6 text-8xl text-blue-500" />
-                        <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-gray-100">
-                            ReactJS
-                        </h3>
-                        <p className="text-lg text-gray-300">
-                            Used React to develop countless websites/projects.
-                        </p>
+                <div className="flex flex-wrap mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10">
+                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
+                        <div className="text-gray-300">
+                            <div className="mb-6">
+                                <a href="#projects">
+                                    <img src = {Test} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
+                                </a>
+                            </div>
+                            <div>
+                                <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+                                    <a href="#projects" className="">
+                                        test
+                                        <HiOutlineExternalLink className="inline mb-1 ml-4 text-green-500" />
+                                    </a>
+                                    <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
+                                        •
+                                    </span>
+                                    <a href="#projects" className="inline text-green-500">
+                                        <AiFillGithub className="inline mb-0 ml-1" />
+                                    </a>
+                                </h4>
+                                <p className="block mb-6 dark:text-white">
+                                    test
+                                </p>
+                                <div className="flex flex-wrap">
+                                    <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        test
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        test
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        test
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        test
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        test
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div className="w-2/3 mx-auto mb-12 text-center sm:w-2/3 lg:mb-0 lg:mx-6 lg:w-1/3 lg:w-full">
-                        <FaVuejs className="mx-auto mb-6 text-8xl text-green-500" />
-                        <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-gray-100">
-                            VueJS
-                        </h3>
-                        <p className="text-lg text-gray-300">
-                            Used Vue on a few smaller projects and websites.
-                        </p>
-                    </div>
-                    <div className="w-2/3 mx-6 mx-auto mb-0 text-center lg:mx-6 sm:w-2/3 lg:w-1/3 lg:w-full">
-                        <AiFillHtml5 className="mx-auto mb-6 text-8xl text-yellow-600" />
-                        <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">
-                            HTML5
-                        </h3>
-                        <p className="text-lg text-gray-300">
-                            Extensive experience with using the language.
-                        </p>
-                    </div>
-                    <div className="w-2/3 mx-6 mx-auto mb-0 text-center lg:mx-6 sm:w-2/3 lg:w-1/3 lg:w-full">
-                        <AiFillHtml5 className="mx-auto mb-6 text-8xl text-yellow-600" />
-                        <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">
-                            HTML5
-                        </h3>
-                        <p className="text-lg text-gray-300">
-                            Extensive experience with using the language.
-                        </p>
-                    </div>
-                    <div className="w-2/3 mx-6 mx-auto mb-0 text-center lg:mx-6 sm:w-2/3 lg:w-1/3 lg:w-full">
-                        <AiFillHtml5 className="mx-auto mb-6 text-8xl text-yellow-600" />
-                        <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">
-                            HTML5
-                        </h3>
-                        <p className="text-lg text-gray-300">
-                            Extensive experience with using the language.
-                        </p>
-                    </div>
-                    <div className="w-2/3 mx-6 mx-auto mb-0 text-center lg:mx-6 sm:w-2/3 lg:w-1/3 lg:w-full">
-                        <AiFillHtml5 className="mx-auto mb-6 text-8xl text-yellow-600" />
-                        <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">
-                            HTML5
-                        </h3>
-                        <p className="text-lg text-gray-300">
-                            Extensive experience with using the language.
-                        </p>
-                    </div>
-                    <div className="w-2/3 mx-6 mx-auto mb-0 text-center lg:mx-6 sm:w-2/3 lg:w-1/3 lg:w-full">
-                        <AiFillHtml5 className="mx-auto mb-6 text-8xl text-yellow-600" />
-                        <h3 className="mb-2 text-2xl font-semibold lg:text-3xl font-header text-primary dark:text-secondary">
-                            HTML5
-                        </h3>
-                        <p className="text-lg text-gray-300">
-                            Extensive experience with using the language.
-                        </p>
-                    </div>
+                    
                 </div>
-                */}
             </section>
         )
     }
