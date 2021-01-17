@@ -6,7 +6,7 @@ export class Footer extends Component {
         return (
             <footer
             role="contentinfo"
-            className="px-4 py-10 text-center bg-gray-900"
+            className="px-4 pb-8 text-center bg-gray-900"
             >
                 <div className="flex justify-center py-5 mb-4">
                     <div className="text-2xl w-44 md:w-48 lg:w-48 md:text-2xl lg:text-2xl">

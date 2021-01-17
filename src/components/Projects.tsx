@@ -24,12 +24,12 @@ export class Projects extends Component {
                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
                                     <a href="#projects" className="">
                                         test
-                                        <HiOutlineExternalLink className="inline mb-1 ml-4 text-green-500" />
+                                        <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
                                     </a>
                                     <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
-                                        •
+                                        |
                                     </span>
-                                    <a href="#projects" className="inline text-green-500">
+                                    <a href="#projects" className="inline text-purple-200">
                                         <AiFillGithub className="inline mb-0 ml-1" />
                                     </a>
                                 </h4>
