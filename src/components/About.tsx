@@ -1,5 +1,10 @@
 import React, { Component } from 'react'
 
+import {AiFillHtml5} from "react-icons/ai"
+import {SiJavascript, SiReact, SiJupyter, SiCplusplus, SiJava, SiTypescript} from "react-icons/si"
+import {DiCss3} from "react-icons/di"
+import {FaVuejs, FaPython, FaGitSquare} from "react-icons/fa"
+
 export class About extends Component {
   render() {
     return (
@@ -22,6 +27,38 @@ export class About extends Component {
             </p>
           </div>
         </div>
+        {/*
+        <h3 className="mb-8 text-xl font-bold left lowercase special md:text-2xl font-header text-purple-200">
+            Stuff I've worked with:
+        </h3>
+        <div className="flex flex-wrap justify-center mx-auto lg:max-w-3xl">
+          <div className="flex p-4 md:p-8">
+            <span>
+              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
+            </span>
+          </div>
+          <div className="flex p-4 md:p-8">
+            <span>
+              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
+            </span>
+          </div>
+          <div className="flex p-4 md:p-8">
+            <span>
+              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
+            </span>
+          </div>
+          <div className="flex p-4 md:p-8">
+            <span>
+              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
+            </span>
+          </div>
+          <div className="flex p-4 md:p-8">
+            <span>
+              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
+            </span>
+          </div>
+        </div>
+        */}
       </section>
     )
   }
