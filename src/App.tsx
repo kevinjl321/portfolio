@@ -14,19 +14,19 @@ class App extends Component{
     return (
       <div>
           <Header />
-          <div className = "bg-gray-900 w-full">
+          <div className = "bg w-full">
             <Hero/>
           </div>
-          <div className = "border-t border-gray-800 bg-gray-900 w-full">
+          <div className = "border-t border-gray-800 bg w-full">
             <About/>
           </div>
-          <div className = "border-t border-gray-800 bg-gray-900 w-full">
+          <div className = "border-t border-gray-800 bg w-full">
             <Projects/>
           </div>
-          <div className = "border-t border-gray-800 bg-gray-900 w-full">
+          <div className = "border-t border-gray-800 bg w-full">
             <Contact/>
           </div>
-          <div className = "bg-gray-900 w-full">
+          <div className = "bg w-full">
             <Footer/>
           </div>
       </div>

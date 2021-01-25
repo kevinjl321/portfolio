@@ -4,7 +4,7 @@ export class Header extends Component {
     render() {
         return (
             <header
-                className="text-center bg-gray-900 "
+                className="text-center bg"
                 role="banner"
             >
                 <div className="flex flex-wrap justify-center max-w-md px-4 pt-8 pb-8 mx-auto text-lg font-semibold text-purple-300 lowercase md:pt-8 md:px-8 lg:pt-8 sm:max-w-xl md:max-w-6xl md:text-xl font-header dark:text-white md:justify-center">
