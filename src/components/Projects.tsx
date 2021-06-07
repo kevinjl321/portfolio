@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import {HiOutlineExternalLink} from "react-icons/hi"
 import {AiFillGithub} from "react-icons/ai"
 
-import Test from "../images/Test.jpg"
+import Test from "../images/Test.png"
 
 export class Projects extends Component {
     render() {

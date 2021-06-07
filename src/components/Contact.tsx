@@ -23,7 +23,7 @@ export class Contact extends Component {
                                     id="firstname"
                                     name="firstname"
                                     className="w-full px-3 py-3 mt-2 text-lg text-gray-700 border rounded border-primary_light focus:border focus:border-primary focus:outline-none font-body bg-gray-100"
-                                    placeholder="Eren"
+                                    placeholder="John"
                                     required
                                 />
                             </label>
@@ -37,7 +37,7 @@ export class Contact extends Component {
                                     id="lastname"
                                     name="lastname"
                                     className="w-full px-3 py-3 mt-2 text-lg text-gray-700 rounded border-primary_light focus:border focus:border-primary focus:outline-none font-body bg-gray-100"
-                                    placeholder="Yeager"
+                                    placeholder="Doe"
                                     required
                                 />
                             </label>
@@ -52,7 +52,7 @@ export class Contact extends Component {
                                 id="email"
                                 name="email"
                                 className="w-full px-3 py-3 mt-2 text-lg text-gray-700 rounded border-primary_light focus:border focus:border-primary focus:outline-none font-body bg-gray-100"
-                                placeholder="eyeager@stanford.edu"
+                                placeholder="email@provider.com"
                                 required
                             />
                         </label>
