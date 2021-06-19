@@ -1,10 +1,5 @@
 import React, { Component } from 'react'
 
-import {AiFillHtml5} from "react-icons/ai"
-import {SiJavascript, SiReact, SiJupyter, SiCplusplus, SiJava, SiTypescript} from "react-icons/si"
-import {DiCss3} from "react-icons/di"
-import {FaVuejs, FaPython, FaGitSquare} from "react-icons/fa"
-
 export class About extends Component {
   render() {
     return (
