@@ -16,9 +16,8 @@ export class About extends Component {
               include competitive programming, web development, and machine learning/data science. 
               <br></br>
               <br></br>
-              Some of my hobbies include playing VALORANT, making random projects, watching anime (SnK & FMA:B are my favorites so far)
-              and going on long bike trips with friends. I'm also a nationally ranked badminton player! If you're interested,
-              you can check out my <a className ="cursor-pointer underline text-purple-300 hover:text-purple-200 hover:underline" href = "https://www.linkedin.com/in/kevin-lan-81b3631a7/" target = "_blank" rel = "noreferrer">LinkedIn</a> to see some of my academic achievements. 
+              Some of my hobbies include playing VALORANT, making random projects, watching k-dramas (What's Wrong with Secretary Kim? & Start-Up are my favorites so far)
+              and going on long bike trips with friends. I'm also a nationally ranked badminton player! 
             </p>
           </div>
         </div>
