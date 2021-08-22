@@ -15,7 +15,7 @@ export class Hero extends Component {
                         </h2>
                         <h3 className="w-full mb-6 text-xl text-center text-gray-400 font-body md:text-xl lg:text-2xl md:text-left md:max-w-md lg:max-w-xl">
                         Senior at San Marino High School who is exploring full stack development, competitive programming, and machine learning. Welcome to 
-                        my portfolio page! (development in progress)
+                        my portfolio page! (development still in progress)
                         </h3>
                         <div className="flex flex-row items-center">
                             <a href = "#projects" className="special px-6 py-2 text-xl border-2 rounded-full text-gray-300 font-bold border-gray-200 text-center transition duration-500 ease-in-out hover:bg-purple-300 hover:text-gray-900 hover:border-gray-900 md:text-xl mt-4 mr-4">projects</a>
