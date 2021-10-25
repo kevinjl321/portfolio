@@ -12,6 +12,7 @@ import Antilles from "../images/antilles.png"
 import COVID from "../images/covid.png"
 import Blog from "../images/blog.png"
 import Weather from "../images/weather.png"
+import Portfolio from "../images/portfolio.png"
 
 export class Projects extends Component {
     render() {
@@ -101,8 +102,48 @@ export class Projects extends Component {
                 </div>
                 <p className="special text-purple-300 font-semibold leading-snug text-left text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
                     projects
-                </p>
+                </p>  
                 <div className="flex flex-wrap mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10">
+                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
+                            <div className="text-gray-300">
+                                <div className="mb-6">
+                                    <a href="https://kevinlan.me/" className="">
+                                        <img src = {Portfolio} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
+                                    </a>
+                                </div>
+                                <div>
+                                    <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+                                        <a href="https://kevinlan.me/" className="">
+                                            Portfolio
+                                            <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
+                                        </a>
+                                        <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
+                                            |
+                                        </span>
+                                        <a href="https://github.com/kevinjl321/portfolio" className="inline text-purple-200">
+                                            <AiFillGithub className="inline mb-0 ml-1" />
+                                        </a>
+                                    </h4>
+                                    <p className="block mb-6 dark:text-white">
+                                        My portfolio website (the website you're on right now!) showcasing some, but certainly not all, of my projects and experiences.
+                                    </p>
+                                    <div className="flex flex-wrap">
+                                        <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                            HTML / CSS 
+                                        </span>
+                                        <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                            TypeScript
+                                        </span>
+                                        <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                            React.js
+                                        </span>
+                                        <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                            tailwindcss
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-4 md:mb-4">
                         <div className="text-gray-300">
                             <div className="mb-6">
@@ -183,6 +224,47 @@ export class Projects extends Component {
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
                         <div className="text-gray-300">
                             <div className="mb-6">
+                                <a href="https://github.com/kevinjl321/frc-scouting" className="">
+                                    <img src = {Titanium} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
+                                </a>
+                            </div>
+                            <div>
+                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+                                    <a href="https://github.com/kevinjl321/frc-scouting" className="">
+                                        Scouting App
+                                        <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
+                                    </a>
+                                    <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
+                                        |
+                                    </span>
+                                    <a href="https://github.com/kevinjl321/frc-scouting" className="inline text-purple-200">
+                                        <AiFillGithub className="inline mb-0 ml-1" />
+                                    </a>
+                                </h4>
+                                <p className="block mb-6 dark:text-white">
+                                    App built to streamline the scouting process during FIRST Robotics competitions. Integrated with Google Sheets API and Cloud Services
+                                    for ease of use.
+                                </p>
+                                <div className="flex flex-wrap">
+                                    <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        Python
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        numpy
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        pandas
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        Google Cloud
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
+                        <div className="text-gray-300">
+                            <div className="mb-6">
                                 <a href="https://github.com/FRC-Team-1160/2020-Infinite-Recharge" className="">
                                     <img src = {Antilles} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
                                 </a>
@@ -248,47 +330,6 @@ export class Projects extends Component {
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         WPILib
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
-                        <div className="text-gray-300">
-                            <div className="mb-6">
-                                <a href="https://github.com/kevinjl321/frc-scouting" className="">
-                                    <img src = {Titanium} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
-                                </a>
-                            </div>
-                            <div>
-                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-                                    <a href="https://github.com/kevinjl321/frc-scouting" className="">
-                                        Scouting App
-                                        <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
-                                    </a>
-                                    <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
-                                        |
-                                    </span>
-                                    <a href="https://github.com/kevinjl321/frc-scouting" className="inline text-purple-200">
-                                        <AiFillGithub className="inline mb-0 ml-1" />
-                                    </a>
-                                </h4>
-                                <p className="block mb-6 dark:text-white">
-                                    App built to streamline the scouting process during FIRST Robotics competitions. Integrated with Google Sheets API and Cloud Services
-                                    for ease of use.
-                                </p>
-                                <div className="flex flex-wrap">
-                                    <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        Python
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        numpy
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        pandas
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        Google Cloud
                                     </span>
                                 </div>
                             </div>
