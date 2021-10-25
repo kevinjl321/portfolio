@@ -1,4 +1,4 @@
-My personal website (still under development)!
+My personal website!
 
 ### `yarn start`
 
