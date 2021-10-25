@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "../index.css"
 
 export class About extends Component {
   render() {
@@ -12,47 +13,16 @@ export class About extends Component {
           </div>
           <div className="mb-8">
             <p className="mb-8 text-xl md:text-2xl">
-              I'm a senior San Marino High School who is interested in all things computer science and technology. Some interests I've explored
-              include competitive programming, web development, and machine learning/data science. 
+              I'm a senior San Marino High School who is interested in all things relating to the real world applications of computer science and technology. Some interests I've explored
+              include competitive programming, web development, cybersecurity, and machine learning/artificial intelligence. In college, I plan on studying computer science with a specialization
+              in artificial intelligence.
               <br></br>
               <br></br>
-              Some of my hobbies include playing VALORANT, making random projects, watching k-dramas (What's Wrong with Secretary Kim? & Start-Up are my favorites so far)
+              Some of my hobbies include playing the latest PC titles, making random projects, watching K-dramas,
               and going on long bike trips with friends. I'm also a nationally ranked badminton player! 
             </p>
           </div>
         </div>
-        {/*
-        <h3 className="mb-8 text-xl font-bold left lowercase special md:text-2xl font-header text-purple-200">
-            Stuff I've worked with:
-        </h3>
-        <div className="flex flex-wrap justify-center mx-auto lg:max-w-3xl">
-          <div className="flex p-4 md:p-8">
-            <span>
-              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
-            </span>
-          </div>
-          <div className="flex p-4 md:p-8">
-            <span>
-              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
-            </span>
-          </div>
-          <div className="flex p-4 md:p-8">
-            <span>
-              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
-            </span>
-          </div>
-          <div className="flex p-4 md:p-8">
-            <span>
-              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
-            </span>
-          </div>
-          <div className="flex p-4 md:p-8">
-            <span>
-              <AiFillHtml5 className="w-16 text-9xl transition duration-500 ease-in-out transform md:w-20 hover:scale-110"></AiFillHtml5>
-            </span>
-          </div>
-        </div>
-        */}
       </section>
     )
   }

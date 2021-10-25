@@ -9,6 +9,22 @@
       name="description"
       content="Hi there! I'm Kevin Lan, a junior at San Marino High School who is interested in all things technology and computer science."
     />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+          $(document).ready(function(){
+            $("a").on('click', function(event) {
+              if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+          } 
+        });
+      });
+    </script>
     <title>kevin lan</title>
   </head>
   <body>

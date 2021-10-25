@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "../index.css"
 
 export class Contact extends Component {
     render() {
@@ -9,7 +10,7 @@ export class Contact extends Component {
                         contact
                     </h2>
                     <p className="text-xl text-gray-300 md:text-2xl">
-                        Want to talk? Send me a message here, or reach out to me on any of my socials!
+                        Have a question or want to talk? Send me a message here, or reach out to me on any of my socials!
                     </p>
                 </header>
                 <form name="contact" action="https://getform.io/f/1e434e35-6f32-4395-b8e1-d81358e8fb35" method="POST">
