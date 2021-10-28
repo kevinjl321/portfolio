@@ -399,7 +399,7 @@ export class Projects extends Component {
                                     </a>
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    Web app that retrieves weather conditions for cities around the world. Uses both Fahrenheit / Celsisus for convenience,
+                                    Web app that retrieves weather conditions for cities around the world. Uses both Fahrenheit / Celsius for convenience,
                                     as well as symbols for easier readbility.
                                 </p>
                                 <div className="flex flex-wrap">
