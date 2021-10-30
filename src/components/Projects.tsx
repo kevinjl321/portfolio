@@ -184,7 +184,7 @@ export class Projects extends Component {
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
                         <div className="text-gray-300">
                             <div className="mb-6">
-                                <a href="https://project-edge-blog.vercel.app/" className="">
+                                <a href="https://blog.project-edge.org/" className="">
                                     <img src = {Blog} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
                                 </a>
                             </div>
