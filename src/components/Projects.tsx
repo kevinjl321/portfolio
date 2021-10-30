@@ -190,7 +190,7 @@ export class Projects extends Component {
                             </div>
                             <div>
                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-                                    <a href="https://project-edge-blog.vercel.app/" className="">
+                                    <a href="https://blog.project-edge.org/" className="">
                                         Project Edge Blog
                                         <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
                                     </a>
