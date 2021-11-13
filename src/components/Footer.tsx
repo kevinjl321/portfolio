@@ -28,7 +28,7 @@ export class Footer extends Component {
                             </li>
                             <li className="flex">
                             <span>
-                                <a className= "light cursor-pointer text-purple-300 hover:text-purple-200" href="http://instagram.com/kevinjl321" rel = "noreferrer" target = "_blank">
+                                <a className= "light cursor-pointer text-purple-300 hover:text-purple-200" href="http://instagram.com/kevinlannn" rel = "noreferrer" target = "_blank">
                                     <FaInstagram />
                                 </a>
                             </span>
