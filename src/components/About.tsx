@@ -13,9 +13,9 @@ export class About extends Component {
           </div>
           <div className="mb-8">
             <p className="mb-8 text-xl md:text-2xl">
-              I'm a senior at San Marino High School interested in exploring the intersections and applications of technology in the real world. Over the past few years, I've explored
+              I'm currently a senior at San Marino High School interested in all things computer science and technology. Over the past few years, I've explored
               competitive programming, web development, cybersecurity, and machine learning/artificial intelligence. In college, I plan on studying computer science with a specialization
-              in artificial intelligence.
+              in artificial intelligence, ultimately hoping to make an impact on the world with the code I write.
               <br></br>
               <br></br>
               Some of my hobbies include playing the latest PC titles, making random projects, watching K-dramas,
