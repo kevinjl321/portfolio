@@ -17,11 +17,11 @@ import Portfolio from "../images/portfolio.png"
 export class Projects extends Component {
     render() {
         return (
-            <section id="projects" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 sp:px-10 md:px-8 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl sm:py-20 md:py-24 lg:py-32">
+            <section id="projects" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 sp:px-10 md:px-8 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl sm:py-20 md:py-20 lg:py-20">
                 <p className="special text-purple-300 font-semibold leading-snug text-left text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
-                    experiences
+                    projects & experiences
                 </p>
-                <div className="flex flex-wrap mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10">
+                <div className="flex flex-wrap mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-8">
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-4 md:mb-4">
                         <div className="text-gray-300">
                             <div className="mb-6">
@@ -100,9 +100,6 @@ export class Projects extends Component {
                         </div>
                     </div>
                 </div>
-                <p className="special text-purple-300 font-semibold leading-snug text-left text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
-                    projects
-                </p>  
                 <div className="flex flex-wrap mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10">
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
                             <div className="text-gray-300">

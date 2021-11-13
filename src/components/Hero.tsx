@@ -5,7 +5,7 @@ import "../index.css"
 export class Hero extends Component {
     render() {
         return (
-            <section className="flex flex-wrap max-w-md px-6 py-8 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl md:py-24 lg:py-40">
+            <section className="flex flex-wrap max-w-md px-6 py-8 mx-auto sm:max-w-xl md:max-w-4xl lg:max-w-5xl md:py-20 lg:py-40">
                 <div className="flex items-center justify-center w-full md:w-1/3">
                     <img className = "mx-auto shadow-xl rounded-full lg:w-full md:w-full sm:w-1/2" src = {profile} alt = "Me (Kevin Lan)"></img>
                 </div>
