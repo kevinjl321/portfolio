@@ -19,7 +19,7 @@ export class Projects extends Component {
         return (
             <section id="projects" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 sp:px-10 md:px-8 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl sm:py-20 md:py-20 lg:py-20">
                 <p className="special text-purple-300 font-semibold leading-snug text-left text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
-                    projects & experiences
+                    projects / experience
                 </p>
                 <div className="flex flex-wrap mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-8">
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-4 md:mb-4">
@@ -397,7 +397,7 @@ export class Projects extends Component {
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Web app that retrieves weather conditions for cities around the world. Uses both Fahrenheit / Celsius for convenience,
-                                    as well as symbols for easier readbility.
+                                    as well as symbols for easier readability.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
