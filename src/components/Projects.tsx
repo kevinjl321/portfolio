@@ -43,8 +43,8 @@ export class Projects extends Component {
                                     </a>
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    Researched and architected a convolutional neural network to detect COVID-19 from chest X-Rays. Worked with 
-                                    graduate students and co-authored a research paper, which was presented at a formal capstone seminar.
+                                    Researched and architected a convolutional neural network to accurately detect COVID-19 from chest X-Rays, provided promising alternative to less efficient RT-PCR test. Worked with 
+                                    graduate students and co-authored a research paper, which was presented at a formal capstone seminar and published in artificial intelligence journal Annals of Biomedical Engineering.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
