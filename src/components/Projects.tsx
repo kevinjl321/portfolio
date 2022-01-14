@@ -44,7 +44,7 @@ export class Projects extends Component {
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Architected convolutional neural network capable of accurately detecting COVID-19 from chest X-Rays. Worked under 
-                                    PhD student Ryan Solgi, co-authored research paper and presented/published findings at seminar/scientific journal: Annals of Biomedical Engineering.
+                                    PhD student Ryan Solgi, co-authored research paper and published findings in scientific journal: Annals of Biomedical Engineering.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
