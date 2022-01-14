@@ -281,7 +281,7 @@ export class Projects extends Component {
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Control system for Titanium Robotics (FRC 1160) 2020 competition robot, An[Ti]lles. Utilizes
-                                    PID guided drive/mechanism operation and automated target detection. 
+                                    PID guided drive/mechanism operation and automated target detection(computer vision).
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
@@ -319,7 +319,7 @@ export class Projects extends Component {
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Control system for Titanium Robotics signature T-shirt cannon, [Ti]rone. Utilizes
-                                    simple joystick commands and an adjustable shooter powered by compressed air.
+                                    simple joystick commands and adaptive turret powered by compressed air.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
