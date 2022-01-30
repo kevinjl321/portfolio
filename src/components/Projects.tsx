@@ -25,13 +25,13 @@ export class Projects extends Component {
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-4 md:mb-4">
                         <div className="text-gray-300">
                             <div className="mb-6">
-                                <a href="https://github.com/kevinjl321/cxr-net">
+                                <a href="https://www.biomedscijournal.com/articles/abse-aid1015.pdf">
                                     <img src = {UCSB} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
                                 </a>
                             </div>
                             <div>
                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-                                    <a href="https://github.com/kevinjl321/cxr-net" className="">
+                                    <a href="https://www.biomedscijournal.com/articles/abse-aid1015.pdf" className="">
                                         Student Researcher @ UCSB
                                         <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
                                     </a>
@@ -44,7 +44,7 @@ export class Projects extends Component {
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Architected convolutional neural network capable of accurately detecting COVID-19 from chest X-Rays. Worked under 
-                                    PhD student Ryan Solgi; authored research paper and presented findings at formal capstone seminar. 
+                                    PhD student Ryan Solgi; authored research paper and publish findings in scientific journal: Annals of Biomedical Science and Engineering.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
