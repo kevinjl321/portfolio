@@ -13,7 +13,7 @@ export class About extends Component {
           </div>
           <div className="mb-8">
             <p className="mb-8 text-xl md:text-2xl">
-              I'm currently a senior at San Marino High School passionate in exploring the real-world applications of code. Over the past few years, I've delved into
+              I'll be attending UC Berkeley this fall as a freshman studying Computer Science. I'm passionate in exploring the real-world applications of code and hope to expand my education past just computer science in college, likely double majoring in another field of STEM and/or humanities. Over the past few years, I've delved into
               competitive programming, web development, cybersecurity, and machine learning/artificial intelligence. 
               <br></br>
               <br></br>
