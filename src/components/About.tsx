@@ -14,7 +14,7 @@ export class About extends Component {
           <div className="mb-8">
             <p className="mb-8 text-xl md:text-2xl">
               I'm currently a student at UC Berkeley studying Computer Science and intending to double major/minor in Data Science and Economics. I'm passionate in exploring the real-world applications of code; over the past few years, I've delved into
-              competitive programming, web development, cybersecurity, and machine learning/artificial intelligence as well as dabbled in the world of entrepreneurship and finance. 
+              web development, cybersecurity, and machine learning/artificial intelligence as well as dabbled in the world of entrepreneurship and finance. 
               <br></br>
               <br></br>
               Some of my hobbies include playing the latest PC titles, making random projects, watching K-dramas,
