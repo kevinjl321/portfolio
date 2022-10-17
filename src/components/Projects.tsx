@@ -335,6 +335,47 @@ export class Projects extends Component {
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
                         <div className="text-gray-300">
                             <div className="mb-6">
+                                <a href="https://weather.kevinjl321.vercel.app/" className="">
+                                    <img src = {Weather} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
+                                </a>
+                            </div>
+                            <div>
+                                <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+                                    <a href="https://weather.kevinjl321.vercel.app/" className="">
+                                        Weather App
+                                        <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
+                                    </a>
+                                    <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
+                                        |
+                                    </span>
+                                    <a href="https://github.com/kevinjl321/weather" className="inline text-purple-200">
+                                        <AiFillGithub className="inline mb-0 ml-1" />
+                                    </a>
+                                </h4>
+                                <p className="block mb-6 dark:text-white">
+                                    Web app that retrieves weather conditions for cities around the world. Uses both Fahrenheit / Celsius for convenience,
+                                    as well as symbols for easier readability.
+                                </p>
+                                <div className="flex flex-wrap">
+                                    <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        HTML / CSS / JS
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        JSON / APIs
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        React.js
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        semantic-ui
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
+                        <div className="text-gray-300">
+                            <div className="mb-6">
                                 <a href="https://covid.kevinjl321.vercel.app/" className="">
                                     <img src = {COVID} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
                                 </a>
@@ -370,47 +411,6 @@ export class Projects extends Component {
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         Material UI
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
-                        <div className="text-gray-300">
-                            <div className="mb-6">
-                                <a href="https://weather.kevinjl321.vercel.app/" className="">
-                                    <img src = {Weather} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
-                                </a>
-                            </div>
-                            <div>
-                                <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-                                    <a href="https://weather.kevinjl321.vercel.app/" className="">
-                                        Weather App
-                                        <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
-                                    </a>
-                                    <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
-                                        |
-                                    </span>
-                                    <a href="https://github.com/kevinjl321/weather" className="inline text-purple-200">
-                                        <AiFillGithub className="inline mb-0 ml-1" />
-                                    </a>
-                                </h4>
-                                <p className="block mb-6 dark:text-white">
-                                    Web app that retrieves weather conditions for cities around the world. Uses both Fahrenheit / Celsius for convenience,
-                                    as well as symbols for easier readability.
-                                </p>
-                                <div className="flex flex-wrap">
-                                    <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        HTML / CSS / JS
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        JSON / APIs
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        React.js
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        semantic-ui
                                     </span>
                                 </div>
                             </div>
