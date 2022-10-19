@@ -14,7 +14,7 @@ export class Footer extends Component {
                         <ul className="flex items-center justify-between">
                             <li className="flex">
                             <span>
-                                <a className="text-purple-300 cursor-pointer hover:text-purple-200" href="https://www.linkedin.com/in/kevin-lan-81b3631a7/" rel = "noreferrer" target = "_blank">
+                                <a className="text-purple-300 cursor-pointer hover:text-purple-200" href="https://www.linkedin.com/in/kevinjlan" rel = "noreferrer" target = "_blank">
                                     <FaLinkedinIn />
                                 </a>
                             </span>
