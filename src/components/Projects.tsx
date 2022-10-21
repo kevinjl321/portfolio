@@ -8,7 +8,7 @@ import UCSB from "../images/ucsb.jpg"
 import Caltech from "../images/caltech.png"
 import Edge from "../images/projectedge.png"
 import Titanium from "../images/titanium.jpg"
-import Antilles from "../images/antilles.jpeg"
+import Antilles from "../images/antilles.JPG"
 import Nautilus from "../images/nautilus.jpg"
 import COVID from "../images/covid.png"
 import Blog from "../images/blog.png"
@@ -282,7 +282,9 @@ export class Projects extends Component {
                                     </a>
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    Control system for Titanium Robotics (FRC 1160) 2022 competition robot, Nau[Ti]lus. Utilizes PID and computer vision/Limelight to adaptively adjust turret, triangulate target, and shoot cargo into lower/upper goal hubs with nearly 100% accuracy. Winner of 2022 Rockwell Automation Creativity Award and placed 8th / 43 teams at 2022 Sacramento Regional.
+                                    Control system for Titanium Robotics (FRC 1160) 2022 competition robot, Nau[Ti]lus. Utilizes PID and computer vision to adaptively adjust turret, 
+                                    triangulate target, and shoot cargo into lower/upper goal hubs with nearly 100% accuracy. Winner of 2022 Rockwell Automation Creativity Award and 
+                                    placed 8th / 43 teams at 2022 Sacramento Regional.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
@@ -320,7 +322,8 @@ export class Projects extends Component {
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Control system for Titanium Robotics (FRC 1160) 2020 competition robot, An[Ti]lles. Utilizes
-                                    PID guided drive/mechanism operation and automated, computer vision based target detection system ("aimbot").
+                                    PID guided drive/mechanism operation and automated, computer vision based target detection system ("aimbot") that approximates exit velocity and motor RPM required
+                                    to shoot cargo into hub given distance and angle.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
@@ -336,6 +339,7 @@ export class Projects extends Component {
                             </div>
                         </div>
                     </div>
+                    {/*
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
                         <div className="text-gray-300">
                             <div className="mb-6">
@@ -371,6 +375,7 @@ export class Projects extends Component {
                             </div>
                         </div>
                     </div>
+                    */}
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
                         <div className="text-gray-300">
                             <div className="mb-6">
