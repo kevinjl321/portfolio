@@ -284,8 +284,7 @@ export class Projects extends Component {
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Control system for Titanium Robotics (FRC 1160) 2022 competition robot, Nau[Ti]lus. Utilizes PID and computer vision to adaptively adjust turret, 
-                                    triangulate target, and shoot cargo into lower/upper goal hubs with nearly 100% accuracy. Winner of 2022 Rockwell Automation Creativity Award and 
-                                    placed 8th / 43 teams at 2022 Sacramento Regional.
+                                    triangulate target, and shoot cargo into lower/upper goal hubs with nearly 100% accuracy.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
