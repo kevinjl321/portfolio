@@ -35,7 +35,7 @@ export class Projects extends Component {
                             <div>
                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
                                     <a href="https://www.biomedscijournal.com/articles/abse-aid1015.pdf" className="">
-                                        Machine Learning Researcher @ UC Santa Barbara
+                                        ML Researcher @ UC Santa Barbara
                                         <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
                                     </a>
                                     <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
@@ -46,7 +46,7 @@ export class Projects extends Component {
                                     </a>
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    Supervised by PhD student Ryan Solgi, architected convolutional neural network capable of accurately detecting COVID-19 from chest X-Rays. 
+                                    Architected convolutional neural network capable of accurately detecting COVID-19 from chest X-Rays. 
                                     Presented at research symposium and published findings in scientific journal: Annals of Biomedical Science and Engineering.
                                 </p>
                                 <div className="flex flex-wrap">
@@ -76,7 +76,7 @@ export class Projects extends Component {
                             </div>
                             <div>
                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-                                    Machine Learning Researcher @ Caltech
+                                    ML Researcher @ Caltech
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Under mentorship of Caltech Prof. Babak Hassibi, examined and applied deep reinforcement learning algorithms to engineer a model that could solve a 2-by-2 Rubik's cube
