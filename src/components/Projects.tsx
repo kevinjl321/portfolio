@@ -14,6 +14,7 @@ import COVID from "../images/covid.png"
 import Blog from "../images/blog.png"
 import Weather from "../images/weather.png"
 import Portfolio from "../images/portfolio.png"
+
 import Tirone from "../images/tirone.jpeg"
 
 export class Projects extends Component {
