@@ -322,7 +322,7 @@ export class Projects extends Component {
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
                                     Control system for Titanium Robotics (FRC 1160) 2020 competition robot, An[Ti]lles. Utilizes
-                                    PID guided drive/mechanism operation and automated, computer vision based target detection system ("aimbot") that approximates exit velocity and motor RPM required
+                                    PID guided drive/mechanism operation and automated, computer vision based target detection system that approximates motor RPM required
                                     to shoot cargo into hub given distance and angle.
                                 </p>
                                 <div className="flex flex-wrap">
