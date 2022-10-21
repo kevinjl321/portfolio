@@ -9,6 +9,7 @@ import Caltech from "../images/caltech.png"
 import Edge from "../images/projectedge.png"
 import Titanium from "../images/titanium.jpg"
 import Antilles from "../images/antilles.png"
+import Nautilus from "../images/nautilus.jpg"
 import COVID from "../images/covid.png"
 import Blog from "../images/blog.png"
 import Weather from "../images/weather.png"
@@ -254,6 +255,44 @@ export class Projects extends Component {
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         Google Cloud
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
+                        <div className="text-gray-300">
+                            <div className="mb-6">
+                                <a href="https://github.com/FRC-Team-1160/2022-Rapid-React" className="">
+                                    <img src = {Nautilus} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
+                                </a>
+                            </div>
+                            <div>
+                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+                                    <a href="https://github.com/FRC-Team-1160/2022-Rapid-React" className="">
+                                        Nau[Ti]lus
+                                        <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
+                                    </a>
+                                    <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
+                                        |
+                                    </span>
+                                    <a href="https://github.com/FRC-Team-1160/2022-Rapid-React" className="inline text-purple-200">
+                                        <AiFillGithub className="inline mb-0 ml-1" />
+                                    </a>
+                                </h4>
+                                <p className="block mb-6 dark:text-white">
+                                    Control system for Titanium Robotics (FRC 1160) 2022 competition robot, Nau[Ti]lus. Design features a compact and robust form factor and novel rotating turret. Utilizes
+                                    PID and computer vision/Limelight to adaptively adjust turret, triangulate target, and shoot cargo into lower/upper goal hubs with nearly 100% accuracy. Winner of 2022 Rockwell Automation Creativity Award and placed 8th / 43 teams at 2022 Sacramento Regional.
+                                </p>
+                                <div className="flex flex-wrap">
+                                    <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        Java
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        WPILib
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        OpenCV
                                     </span>
                                 </div>
                             </div>
