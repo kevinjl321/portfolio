@@ -13,7 +13,7 @@ export class About extends Component {
           </div>
           <div className="mb-8">
             <p className="mb-8 text-xl md:text-2xl">
-              Hi! I'm currently a Computer Science and Data Science student at UC Berkeley passionate in exploring 
+              I'm currently a Computer Science and Data Science student at UC Berkeley passionate in exploring 
               the intersections of society and technology. I'm interested in all things SWE and am actively seeking opportunities to expand my skillset. Sub-fields I've explored and/or plan on exploring include
               ML/AI, Computer Vision, Networks, Cloud Computing, Databases, Infrastructure, and Cybersecurity.
               <br></br>
