@@ -35,7 +35,7 @@ export class Projects extends Component {
                             <div>
                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
                                     <a href="https://www.biomedscijournal.com/articles/abse-aid1015.pdf" className="">
-                                        Student Researcher @ UCSB
+                                        Machine Learning Researcher @ UC Santa Barbara
                                         <HiOutlineExternalLink className="inline mb-1 ml-4 text-purple-200" />
                                     </a>
                                     <span className="inline mb-0 ml-1 mr-1 text-xl text-gray-400 font-body">
@@ -46,8 +46,8 @@ export class Projects extends Component {
                                     </a>
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    Architected convolutional neural network capable of accurately detecting COVID-19 from chest X-Rays. Worked under 
-                                    PhD student Ryan Solgi; authored research paper and publish findings in scientific journal: Annals of Biomedical Science and Engineering.
+                                    Supervised by PhD student Ryan Sol, architected convolutional neural network capable of accurately detecting COVID-19 from chest X-Rays. 
+                                    Presented analysis at research symposium and authored/published findings in scientific journal: Annals of Biomedical Science and Engineering.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
@@ -76,10 +76,10 @@ export class Projects extends Component {
                             </div>
                             <div>
                                 <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
-                                    Student Researcher @ Caltech
+                                    Machine Learning Researcher @ Caltech
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    Researched machine learning algorithms and worked with Caltech professors and students. Created a program that could solve a 2-by-2 Rubik's cube
+                                    Under mentorship of Caltech Prof. Babak Hassibi, examined and applied deep reinforcement learning algorithms to engineer a model that could solve a 2-by-2 Rubik's cube
                                     in the least amount of moves possible.
                                 </p>
                                 <div className="flex flex-wrap">
