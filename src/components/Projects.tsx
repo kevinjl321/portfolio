@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import "../index.css"
 
 import {HiOutlineExternalLink} from "react-icons/hi"
@@ -17,7 +17,8 @@ import Portfolio from "../images/portfolio.png"
 import ETA from "../images/eta.png"
 import LSTM from "../images/lstm.png"
 
-import Tirone from "../images/tirone.jpeg"
+// eslint-disable-next-line no-lone-blocks
+{/*  import Tirone from "../images/tirone.jpeg" */}
 
 export class Projects extends Component {
     render() {
