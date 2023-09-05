@@ -14,6 +14,8 @@ import COVID from "../images/covid.png"
 import Blog from "../images/blog.png"
 import Weather from "../images/weather.png"
 import Portfolio from "../images/portfolio.png"
+import ETA from "../images/eta.png"
+import LSTM from "../images/lstm.png"
 
 import Tirone from "../images/tirone.jpeg"
 
@@ -22,10 +24,10 @@ export class Projects extends Component {
         return (
             <section id="projects" className="flex flex-col max-w-md px-6 py-12 mx-auto sm:px-10 sp:px-10 md:px-8 sm:max-w-2xl md:max-w-3xl lg:max-w-5xl sm:py-20 md:py-20 lg:py-20">
                 <p className="special text-purple-300 font-semibold leading-snug text-left text-4xl sm:text-2xl md:text-3xl lg:text-4xl font-header mb-8">
-                    projects / experience
+                    research + projects
                 </p>
                 <div className="flex flex-wrap mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-8">
-                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-4 md:mb-4">
+                <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-4 md:mb-4">
                         <div className="text-gray-300">
                             <div className="mb-6">
                                 <a href="https://www.biomedscijournal.com/articles/abse-aid1015.pdf">
@@ -54,16 +56,7 @@ export class Projects extends Component {
                                         Python
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        computer vision
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        neural networks
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        Jupyter Notebook
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        tensorflow
+                                        TensorFlow
                                     </span>
                                 </div>
                             </div>
@@ -87,22 +80,80 @@ export class Projects extends Component {
                                         Python
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        reinforcement learning
+                                        TensorFlow
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        neural networks
+                                        PyTorch
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-4 md:mb-4">
+                        <div className="text-gray-300">
+                            <div className="mb-6">
+                                <a href="https://github.com/kevinjl321/whats-your-eta">
+                                    <img src = {ETA} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
+                                </a>
+                            </div>
+                            <div>
+                                <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+                                    <a href="https://github.com/kevinjl321/whats-your-eta" className="">
+                                        what's your eta?
+                                    </a>
+                                    <a href="https://github.com/kevinjl321/whats-your-eta" className="inline text-purple-200">
+                                        <AiFillGithub className="inline mb-0 ml-1" />
+                                    </a>
+                                </h4>
+                                <p className="block mb-6 dark:text-white">
+                                Simple web interface that uses the BART API in conjunction with Node.js and Express.js to track arrivals of trains given user input of a specific BART station.
+                                </p>
+                                <div className="flex flex-wrap">
+                                    <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        HTML / CSS / JS
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        Jupyter Notebook
+                                        Node.js
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        tensorflow
+                                        Express
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-4 md:mb-4">
+                        <div className="text-gray-300">
+                            <div className="mb-6">
+                                <a href="https://github.com/kevinjl321/lstm-trader">
+                                    <img src = {LSTM} className= "sm:w-4/5 transition duration-500 ease-in-out transform rounded shadow-xl hover:shadow-xl hover:scale-105 hover:-translate-y-1" alt="" />
+                                </a>
+                            </div>
+                            <div>
+                                <h4 className="mb-2 text-2xl font-bold md:text-2_5xl font-header">
+                                    <a href="https://github.com/kevinjl321/lstm-trader" className="">
+                                        LSTM Trader
+                                    </a>
+                                    <a href="https://github.com/kevinjl321/lstm-trader" className="inline text-purple-200">
+                                        <AiFillGithub className="inline mb-0 ml-1" />
+                                    </a>
+                                </h4>
+                                <p className="block mb-6 dark:text-white">
+                                Applying recurrent neural networks to perform predictive analyses on stock market data in order to optimize trades and enhance overall understanding of market trends.
+                                </p>
+                                <div className="flex flex-wrap">
+                                    <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        Python
+                                    </span>
+                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
+                                        TensorFlow
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
                 <div className="flex flex-wrap mx-3 md:px-3 xl:px-0 md:-mx-0 lg:-mx-3 md:mb-10">
                     <div className="w-full px-6 mb-12 md:w-1/2 md:px-3 lg:px-6 sm:mb-16 md:mb-24">
                             <div className="text-gray-300">
@@ -129,16 +180,13 @@ export class Projects extends Component {
                                     </p>
                                     <div className="flex flex-wrap">
                                         <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                            HTML / CSS 
+                                            HTML / CSS / JS
                                         </span>
                                         <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                             TypeScript
                                         </span>
                                         <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                             React.js
-                                        </span>
-                                        <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                            tailwindcss
                                         </span>
                                     </div>
                                 </div>
@@ -174,9 +222,6 @@ export class Projects extends Component {
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         React.js
                                     </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        tailwindcss
-                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -209,13 +254,7 @@ export class Projects extends Component {
                                         HTML / CSS / JS
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        React.js
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         Next.js
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        tailwindcss
                                     </span>
                                 </div>
                             </div>
@@ -242,18 +281,12 @@ export class Projects extends Component {
                                     </a>
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    App built to streamline the scouting process during FIRST Robotics competitions. Integrated with Google Sheets API and Cloud Services
+                                    App built to streamline the scouting process during FIRST Robotics competitions. Integrated with Google Sheets API and Google Cloud Services
                                     for ease of use.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         Python
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        numpy
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        pandas
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         Google Cloud
@@ -405,9 +438,6 @@ export class Projects extends Component {
                                         HTML / CSS / JS
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        JSON / APIs
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         React.js
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
@@ -443,9 +473,6 @@ export class Projects extends Component {
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         HTML / CSS / JS
-                                    </span>
-                                    <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
-                                        JSON / APIs
                                     </span>
                                     <span className="ml-2 px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
                                         React.js

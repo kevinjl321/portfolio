@@ -14,11 +14,10 @@ export class About extends Component {
           <div className="mb-8">
             <p className="mb-8 text-xl md:text-2xl">
               I'm currently a Computer Science and Economics student at UC Berkeley passionate in exploring 
-              the intersections of society and technology. I'm interested in all things SWE and am actively seeking opportunities to expand my skillset. Sub-fields I've explored and/or plan on exploring include
-              ML/AI, Computer Vision, Networks, Cloud Computing, Databases, Infrastructure, and Cybersecurity.
+              the intersections of society and technology. 
               <br></br>
               <br></br>
-              Some of my hobbies include playing the latest PC titles, making random projects, binging dramas,
+              I enjoy making random projects, binging dramas,
               and going on long bike trips with friends. I'm also a competitive badminton player!
             </p>
           </div>
