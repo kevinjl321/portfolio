@@ -177,7 +177,7 @@ export class Projects extends Component {
                                         </a>
                                     </h4>
                                     <p className="block mb-6 dark:text-white">
-                                        My portfolio website (the website you're on right now!) showcasing some, but certainly not all, of my projects and experiences.
+                                        My portfolio website (the website you're on right now!) showcasing some of my projects and experiences.
                                     </p>
                                     <div className="flex flex-wrap">
                                         <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
@@ -282,8 +282,7 @@ export class Projects extends Component {
                                     </a>
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    App built to streamline the scouting process during FIRST Robotics competitions. Integrated with Google Sheets API and Google Cloud Services
-                                    for ease of use.
+                                    App built to streamline scouting process and simplify alliance selection for FIRST Robotics competitions.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
@@ -431,8 +430,7 @@ export class Projects extends Component {
                                     </a>
                                 </h4>
                                 <p className="block mb-6 dark:text-white">
-                                    Web app that retrieves weather conditions for cities around the world. Uses both Fahrenheit / Celsius for convenience,
-                                    as well as symbols for easier readability.
+                                    Web app that retrieves detailed weather conditions for cities around the world.
                                 </p>
                                 <div className="flex flex-wrap">
                                     <span className="px-2 py-1 mb-2 text-gray-300 bg-gray-600 dark:bg-gray-800 rounded dark:text-gray-400">
