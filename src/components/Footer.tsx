@@ -37,7 +37,7 @@ export class Footer extends Component {
                     </div>
                 </div>
                 <p className="text-md text-gray-500 font-semibold">
-                    © 2024 kevin lan | designed and developed by kevin lan 
+                    © 2025 kevin lan | designed and developed by kevin lan 
                     <br />
                 </p>
             </footer>
