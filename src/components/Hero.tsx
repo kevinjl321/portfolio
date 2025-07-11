@@ -45,7 +45,7 @@ const Hero: React.FC = () => {
               <div className="flex items-start space-x-2">
                 <span className="hero-text-muted text-xs mt-0.5 sm:mt-1 flex-shrink-0">•</span>
                 <p className="hero-text text-xs sm:text-sm leading-relaxed">
-                  watching <a href="https://www.netflix.com/title/80192098" target="_blank" rel="noreferrer" className="hero-link">dynasty</a> on netflix
+                  watching <a href="https://www.netflix.com/title/80179394" target="_blank" rel="noreferrer" className="hero-link">dynasty</a> on netflix
                 </p>
               </div>
               <div className="flex items-start space-x-2">
