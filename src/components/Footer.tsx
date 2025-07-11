@@ -7,28 +7,28 @@ export class Footer extends Component {
         return (
             <footer
             role="contentinfo"
-            className="px-4 pb-8 text-center bg"
+            className="px-4 pb-8 text-center bg-gray-900 border-t border-gray-800"
             >
                 <div className="flex justify-center py-5 mb-4">
                     <div className="text-2xl w-44 md:w-48 lg:w-48 md:text-2xl lg:text-2xl">
                         <ul className="flex items-center justify-between">
                             <li className="flex">
                             <span>
-                                <a className="text-purple-300 cursor-pointer hover:text-purple-200" href="https://www.linkedin.com/in/kevinjlan" rel = "noreferrer" target = "_blank">
+                                <a className="text-purple-400 cursor-pointer hover:text-purple-300 transition-colors duration-300" href="https://www.linkedin.com/in/kevinjlan" rel = "noreferrer" target = "_blank">
                                     <FaLinkedinIn />
                                 </a>
                             </span>
                             </li>
                             <li className="flex">
                             <span>
-                                <a className="light cursor-pointer text-purple-300 hover:text-purple-200" href="http://github.com/kevinjl321" rel = "noreferrer" target = "_blank">
+                                <a className="light cursor-pointer text-purple-400 hover:text-purple-300 transition-colors duration-300" href="http://github.com/kevinjl321" rel = "noreferrer" target = "_blank">
                                     <FaGithub />
                                 </a>
                             </span>
                             </li>
                             <li className="flex">
                             <span>
-                                <a className= "light cursor-pointer text-purple-300 hover:text-purple-200" href="http://instagram.com/kevinlannn" rel = "noreferrer" target = "_blank">
+                                <a className= "light cursor-pointer text-purple-400 hover:text-purple-300 transition-colors duration-300" href="http://instagram.com/kevinlannn" rel = "noreferrer" target = "_blank">
                                     <FaInstagram />
                                 </a>
                             </span>
