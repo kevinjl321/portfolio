@@ -29,16 +29,15 @@ const ICONS = [
 
 const Hero: React.FC = () => {
         return (
-    <div className="flex items-center justify-center min-h-screen w-full px-4 sm:px-6 lg:px-8 mt-8 mb-8 sm:mt-0 sm:mb-0 lg:pt-0 hero-container">
-      <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl w-full space-y-8 sm:space-y-10 lg:space-y-0 lg:space-x-16 xl:space-x-20">
-        {/* Left: Photo and Icons */}
-        <div className="flex flex-col items-center space-y-4 sm:space-y-6 w-full lg:w-auto">
+    <div className="flex items-center justify-center w-full px-4 lg:px-8 py-8 lg:py-6 hero-container">
+      <div className="flex flex-col lg:flex-row lg:items-center justify-center max-w-6xl w-full space-y-4 lg:space-y-0 lg:space-x-8 xl:space-x-12">
+        {/* Left: Photo, Status, Icons (no card) */}
+        <div className="flex flex-col items-center mx-auto space-y-4 lg:space-y-6 w-full max-w-sm">
           <img
             src={profile}
             alt="Me (Kevin Lan)"
-            className="rounded-lg object-cover w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-72 lg:h-72 border-2 hero-border shadow-sm"
+            className="rounded-lg object-cover w-48 h-48 sm:w-72 sm:h-72 border-2 hero-border shadow-sm"
           />
-          
           {/* Current Status - Casual */}
           <div className="hero-card rounded-lg p-3 sm:p-4 text-center w-full max-w-sm">
             <h3 className="hero-accent font-semibold text-xs sm:text-sm mb-2 sm:mb-3">currently...</h3>
@@ -63,7 +62,6 @@ const Hero: React.FC = () => {
                         </div>
                     </div>
                 </div>
-          
           <div className="flex items-center space-x-4 sm:space-x-6">
             {ICONS.map(({ href, label, icon }) => (
               <a
@@ -79,14 +77,12 @@ const Hero: React.FC = () => {
             ))}
           </div>
         </div>
-        
         {/* Right: Content Box */}
-        <div className="hero-card rounded-lg p-6 sm:p-8 w-full max-w-2xl">
+        <div className="hero-card rounded-lg p-6 lg:p-8 w-full max-w-2xl mx-auto">
           <div className="flex flex-col items-start text-left">
             <h1 className="special font-bold hero-heading leading-tight text-3xl sm:text-4xl lg:text-5xl mb-4 sm:mb-6 tracking-tight">
               hi there, i'm kevin!
             </h1>
-            
             <div className="space-y-3 sm:space-y-4">
               <p className="text-base sm:text-lg lg:text-xl hero-text leading-relaxed">
                 i'm a cs and economics student at uc berkeley currently building customer-facing tools at <a href="https://www.amazon.com" target="_blank" rel="noreferrer" className="hero-link">amazon</a> (alexa comms) and <a href="https://www.serra.io" target="_blank" rel="noreferrer" className="hero-link">serra</a> (24/7 ai recruiter). previously, i've worked in domains ranging from web3 infrastructure with <a href="https://magic.link" target="_blank" rel="noreferrer" className="hero-link">magic labs</a>, educational platforms with <a href="https://www.bentley.com" target="_blank" rel="noreferrer" className="hero-link">bentley systems</a>, and autonomous cybersecurity with the <a href="https://www.jhuapl.edu" target="_blank" rel="noreferrer" className="hero-link">johns hopkins university apl</a>.
