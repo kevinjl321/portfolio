@@ -29,7 +29,7 @@ const ICONS = [
 
 const Hero: React.FC = () => {
         return (
-    <div className="flex items-center justify-center min-h-screen w-full px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 lg:pt-0 hero-container mb-8 sm:mb-0">
+    <div className="flex items-center justify-center min-h-screen w-full px-4 sm:px-6 lg:px-8 mt-8 mb-8 sm:mt-0 sm:mb-0 lg:pt-0 hero-container">
       <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl w-full space-y-8 sm:space-y-10 lg:space-y-0 lg:space-x-16 xl:space-x-20">
         {/* Left: Photo and Icons */}
         <div className="flex flex-col items-center space-y-4 sm:space-y-6 w-full lg:w-auto">
