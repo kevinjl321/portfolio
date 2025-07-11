@@ -28,8 +28,8 @@ const ICONS = [
 ];
 
 const Hero: React.FC = () => {
-  return (
-    <div className="flex items-center justify-center min-h-screen w-full px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 lg:pt-0 hero-container">
+        return (
+    <div className="flex items-center justify-center min-h-screen w-full px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 lg:pt-0 hero-container mb-8 sm:mb-0">
       <div className="flex flex-col lg:flex-row items-center justify-center max-w-6xl w-full space-y-8 sm:space-y-10 lg:space-y-0 lg:space-x-16 xl:space-x-20">
         {/* Left: Photo and Icons */}
         <div className="flex flex-col items-center space-y-4 sm:space-y-6 w-full lg:w-auto">
@@ -54,15 +54,15 @@ const Hero: React.FC = () => {
                 <p className="hero-text text-xs sm:text-sm leading-relaxed">
                   training for the <a href="https://brazenracing.com/summerbreeze/" target="_blank" rel="noreferrer" className="hero-link">summer breeze</a> half marathon
                 </p>
-              </div>
+                </div>
               <div className="flex items-start space-x-2">
                 <span className="hero-text-muted text-xs mt-0.5 sm:mt-1 flex-shrink-0">•</span>
                 <p className="hero-text text-xs sm:text-sm leading-relaxed">
                   craving bitter caramel ice cream from <a href="https://www.pennysicecreamery.com/" target="_blank" rel="noreferrer" className="hero-link">penny's</a>
                 </p>
-              </div>
-            </div>
-          </div>
+                        </div>
+                    </div>
+                </div>
           
           <div className="flex items-center space-x-4 sm:space-x-6">
             {ICONS.map(({ href, label, icon }) => (
@@ -91,11 +91,9 @@ const Hero: React.FC = () => {
               <p className="text-base sm:text-lg lg:text-xl hero-text leading-relaxed">
                 i'm a cs and economics student at uc berkeley currently building customer-facing tools at <a href="https://www.amazon.com" target="_blank" rel="noreferrer" className="hero-link">amazon</a> (alexa comms) and <a href="https://www.serra.io" target="_blank" rel="noreferrer" className="hero-link">serra</a> (24/7 ai recruiter). previously, i've worked in domains ranging from web3 infrastructure with <a href="https://magic.link" target="_blank" rel="noreferrer" className="hero-link">magic labs</a>, educational platforms with <a href="https://www.bentley.com" target="_blank" rel="noreferrer" className="hero-link">bentley systems</a>, and autonomous cybersecurity with the <a href="https://www.jhuapl.edu" target="_blank" rel="noreferrer" className="hero-link">johns hopkins university apl</a>.
               </p>
-              
               <p className="text-base sm:text-lg lg:text-xl hero-text leading-relaxed">
-                some of my other interests include research revolving around ai security, building agentic ai, and exploring the intersection between economics and technology.
+                some of my other interests include researching the security of intelligent systems, building agentic ai, and exploring the intersection between economics and technology.
               </p>
-              
               <p className="text-base sm:text-lg lg:text-xl hero-text leading-relaxed">
                 in my free time, you'll catch me running (follow me on <a href="https://www.strava.com/athletes/42748905" target="_blank" rel="noreferrer" className="hero-link">strava</a>!), playing badminton, or trying new foods around the bay area. feel free to reach out to me on any of my socials and i'd be more than happy to chat about anything!
               </p>
