@@ -2,7 +2,130 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  /* Color Scheme - Easy to change */
+  --color-background: #ffffff;
+  --color-surface: #f8fafc;
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #334155;
+  --color-text-muted: #64748b;
+  --color-accent: #1e3a8a;
+  --color-accent-hover: #172554;
+  --color-border: #e2e8f0;
+  --color-border-light: #f1f5f9;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+}
+
 body {
-  background-color: #111827;
-  color: #f3f4f6;
+  background-color: var(--color-background);
+  color: var(--color-text-secondary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom responsive utilities */
+@layer utilities {
+  .text-responsive {
+    @apply text-sm sm:text-base md:text-lg lg:text-xl;
+  }
+  
+  .heading-responsive {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl;
+  }
+  
+  .container-responsive {
+    @apply px-4 sm:px-6 lg:px-8 xl:px-12;
+  }
+  
+  .spacing-responsive {
+    @apply space-y-4 sm:space-y-6 lg:space-y-8;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better focus states for accessibility */
+*:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-border-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* Custom component styles */
+.hero-container {
+  background-color: var(--color-background);
+}
+
+.hero-card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 1px 3px var(--color-shadow);
+}
+
+.hero-heading {
+  color: var(--color-accent);
+}
+
+.hero-text {
+  color: var(--color-text-secondary);
+}
+
+.hero-text-muted {
+  color: var(--color-text-muted);
+}
+
+.hero-link {
+  text-decoration: underline;
+  color: var(--color-text-secondary);
+}
+
+.hero-link:hover {
+  text-decoration: none;
+}
+
+.hero-accent {
+  color: var(--color-accent);
+}
+
+.hero-accent-hover:hover {
+  color: var(--color-accent-hover);
+}
+
+.hero-border {
+  border-color: var(--color-accent);
+}
+
+.hero-border-light {
+  border-color: var(--color-border);
+}
+
+.hero-icon {
+  color: var(--color-accent);
+}
+
+.hero-icon:hover {
+  color: var(--color-accent-hover);
 }
