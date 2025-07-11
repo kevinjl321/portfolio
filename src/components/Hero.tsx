@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
               <div className="flex items-start space-x-2">
                 <span className="hero-text-muted text-xs mt-0.5 sm:mt-1 flex-shrink-0">•</span>
                 <p className="hero-text text-xs sm:text-sm leading-relaxed">
-                  training for the <a href="https://brazenracing.com/summerbreeze/" target="_blank" rel="noreferrer" className="hero-link">summer breeze</a> half marathon!
+                  training for the <a href="https://brazenracing.com/summerbreeze/" target="_blank" rel="noreferrer" className="hero-link">summer breeze</a> half marathon
                 </p>
               </div>
               <div className="flex items-start space-x-2">
