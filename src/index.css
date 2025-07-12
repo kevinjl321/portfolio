@@ -50,10 +50,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Better focus states for accessibility */
+/* Remove all focus outlines */
 *:focus {
-  outline: 2px solid var(--color-accent);
-  outline-offset: 2px;
+  outline: none !important;
 }
 
 /* Custom scrollbar */
@@ -103,7 +102,12 @@ html {
 }
 
 .hero-link:hover {
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+.hero-link:active,
+.hero-link:focus {
+  text-decoration: underline !important;
 }
 
 .hero-accent {
