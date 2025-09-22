@@ -1,6 +1,6 @@
 import React from 'react';
 import profile from "../images/Kevin.jpg";
-import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 import { HiOutlineDocument } from "react-icons/hi";
 import "../index.css";
 
@@ -16,9 +16,9 @@ const ICONS = [
     icon: <FaLinkedinIn className="w-5 h-5 sm:w-6 sm:h-6" />,
   },
   {
-    href: "https://instagram.com/kevinlannn",
-    label: "Instagram",
-    icon: <FaInstagram className="w-5 h-5 sm:w-6 sm:h-6" />,
+    href: "mailto:kevinjl321@berkeley.edu",
+    label: "Email",
+    icon: <FaEnvelope className="w-5 h-5 sm:w-6 sm:h-6" />,
   },
   // {
   //   href: "/resume.pdf",
