@@ -49,7 +49,7 @@ const Hero: React.FC = () => {
               <div className="flex items-start space-x-2">
                 <span className="hero-text-muted text-xs mt-0.5 sm:mt-1 flex-shrink-0">•</span>
                 <p className="hero-text text-xs sm:text-sm leading-relaxed">
-                  training for the <a href="https://berkeleyhalfmarathon.com/" target="_blank" rel="noreferrer" className="hero-link">berkeley half marathon</a>
+                  training for the <a href="https://sanfranciscohalfmarathon.org/" target="_blank" rel="noreferrer" className="hero-link">san francisco half marathon</a>
                 </p>
                 </div>
               <div className="flex items-start space-x-2">
