@@ -1,7 +1,7 @@
 import React from 'react';
 import profile from "../images/Kevin.jpg";
 import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
-import { HiOutlineDocument } from "react-icons/hi";
+// import { HiOutlineDocument } from "react-icons/hi";
 import "../index.css";
 
 const ICONS = [
